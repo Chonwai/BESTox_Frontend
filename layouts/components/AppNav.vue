@@ -26,12 +26,6 @@
           </v-list-item-icon>
           <v-list-item-title>Method</v-list-item-title>
         </v-list-item>
-        <v-list-item link nuxt to="/dataset">
-          <v-list-item-icon>
-            <v-icon>mdi-home</v-icon>
-          </v-list-item-icon>
-          <v-list-item-title>Dataset</v-list-item-title>
-        </v-list-item>
         <v-list-item link nuxt to="/method">
           <v-list-item-icon>
             <v-icon>mdi-home</v-icon>
@@ -43,6 +37,12 @@
             <v-icon>mdi-home</v-icon>
           </v-list-item-icon>
           <v-list-item-title>Help</v-list-item-title>
+        </v-list-item>
+        <v-list-item link nuxt to="/contact">
+          <v-list-item-icon>
+            <v-icon>mdi-home</v-icon>
+          </v-list-item-icon>
+          <v-list-item-title>Contact</v-list-item-title>
         </v-list-item>
         <v-list-item link href="https://cbbio.online/">
           <v-list-item-icon>
