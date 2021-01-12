@@ -27,20 +27,6 @@
       text
       color="white"
       nuxt
-      to="/dataset"
-    >
-      <p
-        class="text-base"
-        style="margin-bottom: 0px; text-transform: capitalize"
-      >
-        Dataset
-      </p>
-    </v-btn>
-    <v-btn
-      style="text-transform: capitalize"
-      text
-      color="white"
-      nuxt
       to="/method"
     >
       <p
@@ -62,6 +48,20 @@
         style="margin-bottom: 0px; text-transform: capitalize"
       >
         Help
+      </p>
+    </v-btn>
+    <v-btn
+      style="text-transform: capitalize"
+      text
+      color="white"
+      nuxt
+      to="/contact"
+    >
+      <p
+        class="text-base"
+        style="margin-bottom: 0px; text-transform: capitalize"
+      >
+        Contact
       </p>
     </v-btn>
     <v-btn
