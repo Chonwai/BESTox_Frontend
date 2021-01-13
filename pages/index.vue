@@ -111,3 +111,9 @@ export default {
   },
 }
 </script>
+
+<style scoped>
+.stepper-container {
+  box-shadow: none !important;
+}
+</style>
